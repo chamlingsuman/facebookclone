@@ -1,0 +1,149 @@
+body{
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    font-family: sans-serif, arial;
+
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.left-section{
+    float: left;
+    width: 500px;
+    margin-right: 150px;
+    margin-top: -200px;
+    display: grid;
+    justify-content: end;
+}
+.facebook-logo{
+    float: left;
+    width: 300px;
+    padding-left:0;
+    margin-right: 150px;
+    margin-bottom: -30px;
+}
+.Connect{
+    margin-left: 30px;
+    margin-top: -10px;
+    font-family: sans-serif, arial;
+    font-size: 30px;
+    font-weight:15px
+}
+
+.right-section{
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+}
+
+#form-class{
+    margin-top: -150px;
+    border-radius: 4px;
+    width: 396px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.email-class{
+    border:1px solid whitesmoke;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    width:  330px;
+    padding: 14px 16px;
+}
+.email-class:focus{
+    background-color: white;
+    border: blue;
+}
+.password-class{
+    border:1px solid whitesmoke;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    width:  330px;
+}
+.password-class:hover{
+    background-color: white;
+}
+.login-class{
+    font-size: 20px;
+    width: 369px;
+    color: white;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    cursor:pointer;
+    border: none;
+}
+.forgot-class{
+    font-family: Roboto,arial;
+    font-size: 16px;
+    color: rgb(3, 161, 235);
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.forgot-class:hover{
+    text-decoration: underline;
+}
+
+.account-class{
+    font-family: sans-serif, arial;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;   
+    background-color: rgb(84, 206, 84);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.account-class:hover{
+    background-color:  rgb(58, 170, 58);
+}
+
+hr{
+    height: 0.5px;
+    width: 100%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.paragraph{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.span-class{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.span-class:hover{
+    text-decoration: underline;
+}
